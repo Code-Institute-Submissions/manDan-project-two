@@ -18,8 +18,8 @@
 	<!--fontawesome-->
 	<script src="https://kit.fontawesome.com/afc9ba7476.js" crossorigin="anonymous"></script>
 	<title>Manden</title>
-    <!---Javascript-->
-    <script src="js/main.js"></script>
+	<!---Javascript-->
+	<script src="js/main.js"></script>
 </head>
 
 <body>
@@ -28,9 +28,9 @@
 		<!---navbar-->
 		<header>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 ">
 					<nav class="navbar  navbar-expand-lg navbar-light bg-light">
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand" href="index.html">
 							<img src="media/logoman.png" width="30" height="30" class="d-inline-block align-top" alt="">
     ManDan <span><p>Everything Man Need</p></span>
 						</a>
@@ -41,18 +41,15 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item active">
-									<a class="nav-link" href="#">How It Works</a>
+									<a class="nav-link" href="#howItwork">How It Works</a>
 								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link" href="#">
 
-									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#" tabindex="-1" aria-disabled="false">Products </a>
+								<li class="nav-item active">
+									<a class="nav-link" href="shop.html">Join The Club</a>
 								</li>
 								<li class="nav-item align-right dropdown-cart">
-									<button type="button" class="btn btn-dark"> <i class="fas fa-shopping-cart"></i></button>
+									<button type="button" class="btn btn-dark"> <i class="fas fa-shopping-cart"></i><span>0</span></button>
+
 								</li>
 							</ul>
 						</div>
@@ -63,93 +60,110 @@
 
 		<!---main content section-->
 		<section>
-
+			<!---introbanerintro banner -->
 			<div class=" row introbaner ">
+
 				<div class="col-md-12 jumbotron jumbotron-fluid d-flex">
 					<img src="media/fashionbox.jpg" class="card-img" alt="...">
 					<div class="card-img-overlay">
 						<h1 class="display-4">Fluid jumbotron</h1>
 						<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its
 							parent.</p>
-						<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+						<a class="btn btn-primary btn-lg" href="shop.html" role="button">Learn more</a>
 					</div>
 				</div>
 			</div>
-			<div class="container boxcontentInfo">
-				<h3>What It Have</h3>
-				<div class="row">
 
+
+			<!---Info for subscription -->
+
+			<div class="row" id="howItwork">
+				<div class="col-md-4">
+					<h4><i class="fas fa-edit"></i></h4>
+					<h3>Select your Plan</h3>
+					<p>select the plan monthly or ququarterly choice is yours.no
+						commitment</p>
+				</div>
+				<div class="col-md-4">
+					<h3><i class="fas fa-box"></i></h3>
+					<h4>Select your box </h4>
+					<p>For $60/month, you will receive a curated package of Five Four,
+						Grand AC, or New
+						Republic
+						products. On average, you receive 2 items per month and every
+						month is
+						different. Plus, receive
+						easy size exchanges, free shipping, and pause or cancel anytime.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3>
+						<i class="fas fa-paper-plane"></i></h3>
+					<h4>Checkout</h4>
+					<p>Pay & Fillout your details , we will send your box as per your
+						selected plan
+						within 4 to 7
+						working days <span>t&C</span> </p>
+				</div>
+				<span><button class="btn-primary" href="shop.html">Let's Do This</button></span>
+			</div>
+
+			<!--itomes come in box-->
+			-
+			<div class="row planitems">
+
+				<div class="col-md-3">
+					<div class="card">
+						<img src="media/shoe.jpg" class="card-img-top" alt="..."></div>
+					</div>
 					<div class="col-md-3">
 						<div class="card">
-							<img src="media/shoe.jpg" class="card-img-top" alt="..."></div>
+							<img src="media/sunglasses.jpg" class="card-img-top" alt="..."></div>
 						</div>
 						<div class="col-md-3">
 							<div class="card">
-								<img src="media/sunglasses.jpg" class="card-img-top" alt="..."></div>
+								<img src="media/pen.jpg" class="card-img-top" alt="..."></div>
 							</div>
 							<div class="col-md-3">
 								<div class="card">
-									<img src="media/pen.jpg" class="card-img-top" alt="..."></div>
+									<img src="media/pant.jpg" class="card-img-top" alt="..."></div>
 								</div>
+							</div>
+
+
+							<div class="row">
 								<div class="col-md-3">
 									<div class="card">
-										<img src="media/pant.jpg" class="card-img-top" alt="..."></div>
+										<img src="media/clock.jpg" class="card-img-top" alt="..."></div>
 									</div>
-								</div>
-								<div class="row">
 									<div class="col-md-3">
 										<div class="card">
-											<img src="media/clock.jpg" class="card-img-top" alt="..."></div>
+											<img src="media/belt.jpg" class="card-img-top" alt="..."></div>
 										</div>
 										<div class="col-md-3">
 											<div class="card">
-												<img src="media/belt.jpg" class="card-img-top" alt="..."></div>
+												<img src="media/shirt.jpg" class="card-img-top" alt="..."> </div>
 											</div>
 											<div class="col-md-3">
 												<div class="card">
-													<img src="media/shirt.jpg" class="card-img-top" alt="..."> </div>
-												</div>
-												<div class="col-md-3">
-													<div class="card">
-														<img src="media/tie.jpg" class="card-img-top" alt="...">  </div>
-													</div>
+													<img src="media/tie.jpg" class="card-img-top" alt="...">  </div>
 												</div>
 											</div>
-											<div class="row howitwork">
-												<div class="col-md-4">
-													<h4><i class="fas fa-edit"></i></h4>
-													<h3>Select your Plan</h3>
-													<p>select the plan monthly or ququarterly choice is yours.no
-														commitment</p>
-												</div>
-												<div class="col-md-4">
-													<h3><i class="fas fa-box"></i></h3>
-													<h4>Select your box </h4>
-													<p>For $60/month, you will receive a curated package of Five Four,
-														Grand AC, or New
-														Republic
-														products. On average, you receive 2 items per month and every
-														month is
-														different. Plus, receive
-														easy size exchanges, free shipping, and pause or cancel anytime.
-													</p>
-												</div>
-												<div class="col-md-4">
-													<h3>
-														<i class="fas fa-paper-plane"></i></h3>
-													<h4>Checkout</h4>
-													<p>Pay & Fillout your details , we will send your box as per your
-														selected plan
-														within 4 to 7
-														working days <span>t&C</span> </p>
-												</div>
-												<span><button class="btn-primary">Let's Do This</button></span>
-											</div>
+
+
+
+
+
+
+
+
+
+
 
 
 											<div class="row">
 												<div class="col-md">
-													<div class=" row introbaner ">
+													<div class=" row kits ">
 														<div class="col-md-12 jumbotron jumbotron-fluid">
 															<div class="card-img-overlay">
 																<h1 class="display-4">Crafted Kit Range For Man
@@ -250,15 +264,12 @@
 					<p>manden</p>
 				</div>
 				<div class="col-md-4"><span>Follow us</span>
-					<a href="">Facebook</a>
-					<a href="">Twitter</a>
-					<a href="">Insta</a>
+					<a href=""><i class="fab fa-facebook-square"></i></a>
+					<a href=""><i class="fab fa-twitter-square"></i></a>
+					<a href=""><i class="fab fa-youtube-square"></i></a>
 				</div>
-				<div class="col-md-4"><span>Follow us</span>
-					<a href="">BITCOIN</a>
-					<a href="">VISA</a>
-					<a href="">Master</a>
-					<a href="">paypal</a>
+				<div class="col-md-4"><span>Payment</span>
+					<a href=""><i class="fab fa-cc-stripe"></i></a>
 				</div>
 			</div>
 		</footer>
