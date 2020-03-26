@@ -23,36 +23,39 @@
 </head>
 
 <body>
-
-	<div class="fluidcontainer">
+	<div class="text-center">
+		<div class="spinner-border" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+	<div class="container-fluid">
 		<!---navbar-->
 		<header>
 			<div class="row">
 				<div class="col-md-12 ">
-					<nav class="navbar  navbar-expand-lg navbar-light bg-light">
+					<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 						<a class="navbar-brand" href="index.html">
 							<img src="media/logoman.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    ManDan <span><p>Everything Man Need</p></span>
-						</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    ManDan</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav mr-auto">
-								<li class="nav-item active">
-									<a class="nav-link" href="#howItwork">How It Works</a>
-								</li>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item active">
+										<a class="nav-link" href="#howItwork">How It Works</a>
+									</li>
 
-								<li class="nav-item active">
-									<a class="nav-link" href="shop.html">Join The Club</a>
-								</li>
-								<li class="nav-item align-right dropdown-cart">
-									<button type="button" class="btn btn-dark"> <i class="fas fa-shopping-cart"></i><span>0</span></button>
+									<li class="nav-item active">
+										<a class="nav-link" href="shop.html">Join The Club</a>
+									</li>
+									<li class="nav-item align-right dropdown-cart">
+										<button type="button" class="btn btn-dark"> <i class="fas fa-shopping-cart"></i><span>0</span></button>
 
-								</li>
-							</ul>
-						</div>
+									</li>
+								</ul>
+							</div>
 					</nav>
 				</div>
 			</div>
@@ -78,39 +81,164 @@
 			<!---Info for subscription -->
 
 			<div class="row" id="howItwork">
-				<div class="col-md-4">
+				<title>howItwork</title>
+				<div class="col-md-6">
 					<h4><i class="fas fa-edit"></i></h4>
-					<h3>Select your Plan</h3>
-					<p>select the plan monthly or ququarterly choice is yours.no
-						commitment</p>
+					<h3>Select Your Box</h3>
+					<p>Fillout Form in which you will select what style you want and in which size you want and  </p>
 				</div>
-				<div class="col-md-4">
-					<h3><i class="fas fa-box"></i></h3>
-					<h4>Select your box </h4>
-					<p>For $60/month, you will receive a curated package of Five Four,
-						Grand AC, or New
-						Republic
-						products. On average, you receive 2 items per month and every
-						month is
-						different. Plus, receive
-						easy size exchanges, free shipping, and pause or cancel anytime.
-					</p>
-				</div>
-				<div class="col-md-4">
+				
+				<div class="col-md-6">
 					<h3>
 						<i class="fas fa-paper-plane"></i></h3>
 					<h4>Checkout</h4>
-					<p>Pay & Fillout your details , we will send your box as per your
-						selected plan
+					<p>Pay & Fillout your details , we will send your box
 						within 4 to 7
 						working days <span>t&C</span> </p>
 				</div>
-				<span><button class="btn-primary" href="shop.html">Let's Do This</button></span>
+
+				<div class="buybox">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+  Join The Club 
+</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-scrollable" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalScrollableTitle">Select Your Box</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+								</div>
+								<div class="modal-body">
+									<div class="container-fluid">
+										<form action="">
+											<div class="selectbox">
+												<div class="row">
+													<div class="col-sm-12">
+														<div class="card" style="width:100%;">
+															<div class="card-body">
+																<h5 class="card-title">Select Style</h5>
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+																	<label class="form-check-label" for="inlineRadio1">Casual</label>
+																</div>
+
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+																	<label class="form-check-label" for="inlineRadio1">MixMatch</label>
+																</div>
+
+																<div class="form-check form-check-inline">
+																	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+																	<label class="form-check-label" for="inlineRadio1">Smart Office</label>
+																</div>
+
+															</div>
+															<ul class="list-group list-group-flush">
+																<li class="list-group-item">
+																	<h6>Top Size</h6>
+																	<div class="col-auto my-1">
+																		<label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+																		<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">small</option>
+        <option value="2">Medium</option>
+        <option value="3">Large</option>
+        <option value="4">XXL</option>
+        <option value="5">XXL</option>
+      </select>
+																	</div>
+
+																</li>
+																<li class="list-group-item">
+																	<h6>Bottom Style</h6>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+																		<label class="form-check-label" for="inlineRadio1">slimfit</label>
+																	</div>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+																		<label class="form-check-label" for="inlineRadio2">Straightfit</label>
+																	</div>
+																	<div class="form-check form-check-inline">
+																		<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+																		<label class="form-check-label" for="inlineRadio3">Relexed</label>
+																	</div>
+																	<h6>Bottom Size</h6>
+																	<div class="col-auto my-1">
+																		<label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+																		<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">29</option>
+        <option value="2">30</option>
+        <option value="3">31</option>
+        <option value="4">32</option>
+        <option value="5">33</option>
+        <option value="6">34</option>
+        <option value="7">36</option>
+        <option value="8">38</option>
+        <option value="9">40</option>
+        <option value="10">44</option>
+      </select>
+																	</div>
+																</li>
+																<li class="list-group-item">
+																	<h5>Shoe Size</h5>
+																	<div class="col-auto my-1">
+																		<label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+																		<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">7</option>
+        <option value="2">7.5</option>
+        <option value="3">8</option>
+        <option value="4">8.5</option>
+        <option value="5">9</option>
+        <option value="6">9.5</option>
+        <option value="7">10</option>
+        <option value="8">11</option>
+        <option value="9">12</option>
+        <option value="10">13</option>
+        <option value="11">14</option>
+      </select>
+																	</div>
+																</li>
+															</ul>
+															<div class="card-body">
+																<a href="#" class="card-link">Card link</a>
+																<a href="#" class="card-link">Another link</a>
+															</div>
+														</div>
+													</div>
+
+												</div>
+
+
+
+
+											</div>
+										</form>
+									</div>
+
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Shop</button>
+									<button type="button" class="btn btn-primary">Checkout</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
 			<!--itomes come in box-->
-			-
-			<div class="row planitems">
+
+			<div class="row boxitems">
 
 				<div class="col-md-3">
 					<div class="card">
@@ -149,17 +277,6 @@
 													<img src="media/tie.jpg" class="card-img-top" alt="...">  </div>
 												</div>
 											</div>
-
-
-
-
-
-
-
-
-
-
-
 
 											<div class="row">
 												<div class="col-md">
@@ -246,7 +363,8 @@
 					<div class="col-md-4">
 						<div class="signupcontant">
 							<h3>Be Part of MD Community</h3>
-							<p>Every day ther is something new heppning at manden signe up for news letter and always
+							<p>Every day ther is something new heppning at manden signe up
+								for news letter and always
 								stey up to date</p>
 						</div>
 
