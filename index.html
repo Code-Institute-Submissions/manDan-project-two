@@ -42,17 +42,22 @@
   </button>
 
 							<div class="collapse navbar-collapse" id="navbarSupportedContent">
-								<ul class="navbar-nav mr-auto">
-									<li class="nav-item active">
+								<ul class="navbar-nav mr-auto justify-content-end">
+									<!---Link To how it work-->
+									<li class="nav-item">
 										<a class="nav-link" href="#howItwork">How It Works</a>
 									</li>
-
-									<li class="nav-item active">
-										<a class="nav-link" href="shop.html">Join The Club</a>
+									<!---- link to Box selection form -->
+									<li class="nav-item">
+										<a class="nav-link" href="#" data-toggle="modal"
+											data-target="#exampleModalScrollable">Join The Club</a>
 									</li>
-									<li class="nav-item align-right dropdown-cart">
-										<button type="button" class="btn btn-dark"> <i class="fas fa-shopping-cart"></i><span>0</span></button>
 
+									<!-- link to Cart Summery & Checkout -->
+									<li class="nav-item">
+										<a href="checkout.html" class="btn btn-dark" role="button">
+											<i class="fas fa-shopping-cart"></i><span>0</span>
+										</a>
 									</li>
 								</ul>
 							</div>
@@ -64,10 +69,9 @@
 		<!---main content section-->
 		<section>
 			<!---introbanerintro banner -->
-			<div class=" row introbaner ">
+			<div class=" row introbaner">
 
 				<div class="col-md-12 jumbotron jumbotron-fluid d-flex">
-					<img src="media/fashionbox.jpg" class="card-img" alt="...">
 					<div class="card-img-overlay">
 						<h1 class="display-4">Fluid jumbotron</h1>
 						<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its
@@ -85,9 +89,9 @@
 				<div class="col-md-6">
 					<h4><i class="fas fa-edit"></i></h4>
 					<h3>Select Your Box</h3>
-					<p>Fillout Form in which you will select what style you want and in which size you want and  </p>
+					<p>Fillout Form in which you will select what style you want and in which size you want and </p>
 				</div>
-				
+
 				<div class="col-md-6">
 					<h3>
 						<i class="fas fa-paper-plane"></i></h3>
@@ -208,9 +212,51 @@
 																	</div>
 																</li>
 															</ul>
+
 															<div class="card-body">
-																<a href="#" class="card-link">Card link</a>
-																<a href="#" class="card-link">Another link</a>
+
+																<div class="row">
+																	<div class="col-sm-6">
+																		<div class="card text-white bg-success mb-3"
+																			style="max-width: 18rem;">
+																			<div class="card-header">
+																				<div
+																					class="form-check form-check-inline">
+																					<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+																					<label class="form-check-label" for="inlineRadio1"> <h5>Monthly</h5> </label>
+																				</div>
+																			</div>
+																			<div class="card-body">
+																				<h6 class="card-title">500 Dkk Every
+																					Month.
+																				</h6>
+
+																			</div>
+																		</div>
+																	</div>
+
+																	<div class="col-sm-6">
+																		<div class="card text-white bg-dark mb-6"
+																			style="max-width: 18rem;">
+																			<div class="card-header">
+																				<div
+																					class="form-check form-check-inline">
+																					<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+																					<label class="form-check-label" for="inlineRadio1"> <h5>Seasonal </h5> </label>
+																				</div>
+																			</div>
+																			<div class="card-body">
+																				<h6 class="card-title">650 Dkk Every
+																					three
+																					monthmonths </h6>
+
+																			</div>
+																		</div>
+																	</div>
+
+																</div>
+
+
 															</div>
 														</div>
 													</div>
