@@ -20,14 +20,12 @@
 	<title>Manden</title>
 	<!---Javascript-->
 	<script src="js/main.js"></script>
+
+	<!---StripStripe -->
+	<script src="https://js.stripe.com/v3/"></script>
 </head>
 
 <body>
-	<div class="text-center">
-		<div class="spinner-border" role="status">
-			<span class="sr-only">Loading...</span>
-		</div>
-	</div>
 	<div class="container-fluid">
 		<!---navbar-->
 		<header>
@@ -70,7 +68,6 @@
 		<section>
 			<!---introbanerintro banner -->
 			<div class=" row introbaner">
-
 				<div class="col-md-12 jumbotron jumbotron-fluid d-flex">
 					<div class="card-img-overlay">
 						<h1 class="display-4">Fluid jumbotron</h1>
@@ -177,7 +174,7 @@
 																	<div class="col-auto my-1">
 																		<label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
 																		<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-        <option selected>Choose...</option>
+                                                                        <option selected>Choose...</option>
         <option value="1">29</option>
         <option value="2">30</option>
         <option value="3">31</option>
@@ -188,7 +185,7 @@
         <option value="8">38</option>
         <option value="9">40</option>
         <option value="10">44</option>
-      </select>
+                                                                        </select>
 																	</div>
 																</li>
 																<li class="list-group-item">
