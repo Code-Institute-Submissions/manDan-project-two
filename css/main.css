@@ -1,5 +1,5 @@
 :root{--hmBlack: #262626;
 --hmWhite:#f2f2f2;
 --hmGrey:#999999}
-body{margin:0;padding:0;background: var(--hmGrey);
+body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hmBlack);}
