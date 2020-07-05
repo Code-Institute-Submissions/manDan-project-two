@@ -1,2 +1,5 @@
-body{margin:0;padding:0;}
-.introbaner{ background-image: url("/media/classic.jpg");}
+:root{--hmBlack: #262626;
+--hmWhite:#f2f2f2;
+--hmGrey:#999999}
+body{margin:0;padding:0;background: var(--hmGrey);
+color: var(--hmBlack);}
