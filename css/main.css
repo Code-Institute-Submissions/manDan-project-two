@@ -1,5 +1,12 @@
 :root{--hmBlack: #262626;
 --hmWhite:#f2f2f2;
---hmGrey:#999999}
+--hmGrey:#999999;
+--hfgrey:#737373;}
 body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hmBlack);}
+
+#mc_embed_signup {background:var(--hmWhite);
+clear: left;
+font: 14px Helvetica, Arial, sans-serif;
+width: 100%;}
+
