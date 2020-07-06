@@ -1,3 +1,5 @@
+
+
 :root{--hmBlack: #262626;
 --hmWhite:#f2f2f2;
 --hmGrey:#999999;
@@ -5,8 +7,39 @@
 body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hmBlack);}
 
+/*** Nav Bar Starts***/
+/*** nav bar Ends ***/
+
+/**** How it works section ***/
+/** how it works section ends ****/
+
+/**** Shop Section Stats**/
+/*** Shop section <Ends***/
+
+/*** Cart Start ***/
+/*** Cart End **/
+
+/*** Help ****/
+/*** Help end***/
+
+/***Faq***/
+/***Faq End***/
+
+/** Career ***/
+/** Career End**/ 
+
+
+/***** signup form Starts ***/
 #mc_embed_signup {background:var(--hmWhite);
 clear: left;
 font: 14px Helvetica, Arial, sans-serif;
 width: 100%;}
+/**** Signupform Ends***/
+
+
+/***** footer starts******/
+   
+/*****Footer Ends****/
+
+
 
