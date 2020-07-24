@@ -7,17 +7,26 @@
 --hblack:#1f262a;}
 
 body{margin:0;padding:0;background: var(--hmWhite);
-color: var(--hblack);}
+color: var(--hblack); font-family:'Roboto', sans-serif;}
+
+
+
+li a{list-style: none;color:var(--hmWhite); }
+
+.introbaner {background-color: var(--hfgrey);width:100%; height:500px; margin-top: 50px;}
 
 
 /** footer starts***//
 
-div.footer.row {padding: 10px;
+#footercontent {padding: 10px;
     background-color:var(--hbalack);
      color: var(--hmWhite);}
 
+.footerlink li{font-size: 20px;}
 
        /***** signup form Starts ***/
+
+
 #mc_embed_signup{
 clear: left;
 font: 14px Helvetica, Arial, sans-serif;
