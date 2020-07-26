@@ -52,6 +52,21 @@ li a{list-style: none;color:var(--hmWhite); }
 color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padding:50px 10px;}
 #howItwork div {margin:10px 0px;}
 
+/** How it works End **/
+
+/*** Product ***/
+
+.wrapbox #prOducts {width: 100vw;
+    margin-top:50px;
+    margin-bottom: 10px;
+    padding:70px 0px;
+    font-size: 30px;
+    background-color: var(--hfgrey);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--hmWhite);}
+
+
 /** footer starts***/
 
 #footercontent {padding: 10px;
