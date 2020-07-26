@@ -4,16 +4,27 @@
 --hmWhite:#f2f2f2;
 --hmGrey:#999999;
 --hfgrey:#737373;
---hblack:#1f262a;}
+--hblack:#1f262a;
+--myfont:'Krona One', sans-serif;}
 
 body{margin:0;padding:0;background: var(--hmWhite);
-color: var(--hblack); font-family:'Roboto', sans-serif;}
+color: var(--hblack); font-family:var(--myfont)}
+
+.wrapbox{margin: 0%; padding:0px;width: 100vw; height: auto; }
 
 
 
 li a{list-style: none;color:var(--hmWhite); }
 
+/*******nav bar starts ******/
+
+.navLink{color: var(--hblack);}
+
 /*** aler Start ***/
+.alert-success {
+    color:var(--hblack);
+    background-color: #d19a33;
+    border-color: #c3e6cb; important!}
 
 .alert {
     position: relative;
@@ -22,7 +33,9 @@ li a{list-style: none;color:var(--hmWhite); }
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: .25rem;
+    important!
 }
+
 
 /** Alert End **/
 
