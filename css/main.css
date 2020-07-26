@@ -55,6 +55,8 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padd
 /** How it works End **/
 
 /*** Product ***/
+ 
+  /*** title ***/
 
 .wrapbox #prOducts {width: 100vw;
     margin-top:50px;
@@ -65,6 +67,49 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padd
     text-align: center;
     text-transform: uppercase;
     color: var(--hmWhite);}
+
+ /*** Title ENd **/
+ .shop {
+  background: var(--hmGrey);
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.shop-img {
+  transition: all 1s ease-in-out;
+}
+.img-container:hover .shop-img {opacity: 0.2;
+  transform: scale(1.2);
+}
+.shop-product-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color:var(--hmBlack);
+  padding: 0.75rem;
+  background: var(--mainYellow);
+  border-top-left-radius: 1rem;
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
+}
+.img-container:hover .shop-product-icon {
+  transform: translate(0, 0);
+}
+.shop-product-icon:hover {
+  color:transparent(1);
+}
+.shop-product-value {
+  color: --mainYellow;
+}
+/*end of  shop products */
+.search-box {
+  background: var(--mainPink);
+  color: var(--mainBlack);
+}
+
+ /** products **/
 
 
 /** footer starts***/
