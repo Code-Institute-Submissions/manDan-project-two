@@ -10,7 +10,7 @@
 body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hblack); font-family:var(--myfont)}
 
-.wrapbox{margin: 0%; padding:0px;width: 100vw; height: auto; }
+.wrapbox{margin: 0%; padding:20pX 20px;width: 100vw; height: auto; }
 
 
 
@@ -21,6 +21,7 @@ li a{list-style: none;color:var(--hmWhite); }
 .navLink{color: var(--hblack);}
 
 /*** aler Start ***/
+
 .alert-success {
     color:var(--hblack);
     background-color: #d19a33;
@@ -39,7 +40,17 @@ li a{list-style: none;color:var(--hmWhite); }
 
 /** Alert End **/
 
+/*** Banner **/
 
+.wrapbox .time-box{padding:0px;margin-bottom: 10px;}
+
+.wrapbox .time-box .timeimg{width: 100%; height: auto;}
+
+/*** how it works **/
+
+#howItwork {background-color: var(--hblack); 
+color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padding:50px 10px;}
+#howItwork div {margin:10px 0px;}
 
 /** footer starts***/
 
