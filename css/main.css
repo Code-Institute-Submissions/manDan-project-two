@@ -13,10 +13,22 @@ color: var(--hblack); font-family:'Roboto', sans-serif;}
 
 li a{list-style: none;color:var(--hmWhite); }
 
-.introbaner {background-color: var(--hfgrey);width:100%; height:500px; margin-top: 50px;}
+/*** aler Start ***/
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/** Alert End **/
 
 
-/** footer starts***//
+
+/** footer starts***/
 
 #footercontent {padding: 10px;
     background-color:var(--hbalack);
