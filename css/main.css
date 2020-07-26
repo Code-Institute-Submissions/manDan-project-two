@@ -14,7 +14,6 @@ color: var(--hblack); font-family:var(--myfont)}
 
 
 
-li a{list-style: none;color:var(--hmWhite); }
 
 /*******nav bar starts ******/
 
@@ -42,19 +41,19 @@ li a{list-style: none;color:var(--hmWhite); }
 
 /*** Banner **/
 
-.wrapbox .time-box{padding:0px;margin-bottom: 10px;}
+.wrapbox .time-box{padding:0px;margin-bottom: 10px;font-size: 1.5rem;}
 
 .wrapbox .time-box .timeimg{width: 100%; height: auto;}
 
 /*** how it works **/
 
 #howItwork {background-color: var(--hblack); 
-color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padding:50px 10px;}
+color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 1.5rem;padding:50px 10px;}
 #howItwork div {margin:10px 0px;}
 
 /** How it works End **/
 
-/*** Product ***/
+/*** shop Product ***/
  
   /*** title ***/
 
@@ -62,7 +61,6 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padd
     margin-top:50px;
     margin-bottom: 10px;
     padding:70px 0px;
-    font-size: 30px;
     background-color: var(--hfgrey);
     text-align: center;
     text-transform: uppercase;
@@ -89,8 +87,8 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padd
   right: 0;
   color:var(--hmBlack);
   padding: 0.75rem;
-  background: var(--mainYellow);
-  border-top-left-radius: 1rem;
+  background: var(--hmGrey);
+  border-top-left-radius: 3rem;
   transition: all 1s ease-in-out;
   transform: translate(100%, 100%);
 }
@@ -114,11 +112,15 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 18px;padd
 
 /** footer starts***/
 
-#footercontent {padding: 10px;
-    background-color:var(--hbalack);
-     color: var(--hmWhite);}
+.wrapbox #footercontent {margin-top:2rem;padding: 10px;
+    background-color:var(--hblack);
+     color: var(--hmWhite);
+     text-align: center;}
+/*** footer links ***/
+#footercontent ul {list-style: none;padding: 0rem;}
 
-.footerlink li{font-size: 20px;}
+#footercontent ul li a {color: var(--hmWhite); font-size: 1.5rem;}
+/** footer link End **/
 
        /***** signup form Starts ***/
 
