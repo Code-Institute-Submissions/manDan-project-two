@@ -10,15 +10,21 @@
 body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hblack); font-family:var(--myfont)}
 
-.row {margin: 0;padding: 0;}
-.col-sm-12{margin: 0;padding: 0;}
-.col-sm-6{margin: 0;padding: 0;}
-.col-sm-4{margin: 0;padding: 0;}
-.col-sm-3{margin: 0;padding: 0;}
-
 .wrapbox{margin: 0%; padding:0%;width: 100vw; height: auto; }
 
+.row{padding: 0;
+margin: 0;}
 
+.col-sm-12{padding: 0;
+margin: 0;}
+.col-sm-8{padding: 0;
+margin: 0;}
+.col-sm-6{padding: 0;
+margin: 0;}
+.col-sm-4{padding: 0;
+margin: 0;
+.col-sm-3{padding: 0;
+margin: 0;}}
 
 
 /*******nav bar starts ******/
@@ -90,8 +96,8 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
   overflow: hidden;
   cursor: pointer;
 }
-.shop-img {width: 100%; height: auto;padding:1.25rem;
-  transition: all 1s cubic-bezier(0.45, 0.05, 0.55, 0.2);
+.shop-img {width: 100%; height: auto;padding:1.252rem;
+  transition: all 1s ease-in-out;
 }
 .img-container:hover .shop-img {opacity: 0.2;padding:1.25rem;
   transform: scale(1.2);
@@ -129,7 +135,7 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 
 #footercontent ul li a {color: var(--hmWhite); font-size: 1.5rem;}
 
-.secondFooter {margin:0;font-size: 0.7rem;width: 100vw;padding:0;background-color: var(--hmGrey);}
+.secondFooter {margin:0;font-size: 0.7rem;width: 100vw;padding:1rem 0rem;background-color: var(--hmGrey);}
 .secondFooter p {margin: 0;
 }
 /** footer link End **/
@@ -144,8 +150,39 @@ width: 100%;}
         /**** Signupform Ends***/
 
 
+
+
+
+
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 570px) {
+
+.shop-img {
+    width: 100%;
+    height: auto;
+    padding: 4.252rem;
+    transition: all 1s ease-in-out;
+}
+
+.text-justify {margin: 0rem;
+    text-align: justify!important;
+    font-size: 1.5rem;
+    padding: 0.9375rem;
+}
+
+.wrapbox .time-box{
+    padding:0px;
+    margin-bottom:10px;
+    font-size: 1.5rem;}
+
+
+.wrapbox .time-box .timeimg{width: 100%; height: auto;padding:1.25rem;}
+
+.text-justify {margin: 0rem;
+    text-align: justify!important;
+    font-size: 0.9375rem;
+    padding: 0.9375rem;
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
