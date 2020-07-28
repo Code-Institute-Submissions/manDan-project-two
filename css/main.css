@@ -10,23 +10,7 @@
 body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hblack); font-family:var(--myfont)}
 
-.wrapbox{margin: 0%; padding:0%;width: 100vw; height: auto; }
-
-.row{padding: 0;
-margin: 0;}
-
-.col-sm-12{padding: 0;
-margin: 0;}
-.col-sm-8{padding: 0;
-margin: 0;}
-.col-sm-6{padding: 0;
-margin: 0;}
-.col-sm-4{padding: 0;
-margin: 0;
-.col-sm-3{padding: 0;
-margin: 0;}}
-
-
+.wrapbox {margin: 0%; padding:0%;width: 100vw; height: auto; } 
 /*******nav bar starts ******/
 
 .navLink{color: var(--hblack);}
@@ -69,8 +53,8 @@ margin: 0;}}
 
 #howItwork {background-color: var(--hblack); 
 color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:50px 10px;}
-#howItwork div {margin:10px 10px;}
-#howItwork p {font-size: 1.0rem;}
+#howItwork div {margin:10px 0px;}
+#howItwork p {font-size: 1.0rem;text-align: justify;word-spacing:0.2px;}
 
 /** How it works End **/
 
@@ -125,7 +109,7 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 
 /** footer starts***/
 
-.wrapbox #footercontent {margin-top:2rem;padding: 0rem;;
+#footercontent {margin-top:2rem;padding: 0rem;;
     background-color:var(--hblack);
      color: var(--hmWhite);
      text-align: center;}
