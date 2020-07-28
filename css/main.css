@@ -10,7 +10,13 @@
 body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hblack); font-family:var(--myfont)}
 
-.wrapbox{margin: 0%; padding:20pX 20px;width: 100vw; height: auto; }
+.row {margin: 0;padding: 0;}
+.col-sm-12{margin: 0;padding: 0;}
+.col-sm-6{margin: 0;padding: 0;}
+.col-sm-4{margin: 0;padding: 0;}
+.col-sm-3{margin: 0;padding: 0;}
+
+.wrapbox{margin: 0%; padding:0%;width: 100vw; height: auto; }
 
 
 
@@ -21,18 +27,16 @@ color: var(--hblack); font-family:var(--myfont)}
 
 /*** aler Start ***/
 
-.alert-success {
-    color:var(--hblack);
-    background-color: #d19a33;
-    border-color: #c3e6cb; important!}
 
-.alert {
+
+.alert {color:var(--hblack);
+    background-color: #d19a33;
     position: relative;
     padding: .75rem 1.25rem;
-    margin-top: 4rem;
+    margin-top: 3.5625rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
-    border-radius: .25rem;
+    border-radius: 0rem;
     important!
 }
 
@@ -41,15 +45,32 @@ color: var(--hblack); font-family:var(--myfont)}
 
 /*** Banner **/
 
-.wrapbox .time-box{padding:0px;margin-bottom: 10px;font-size: 1.5rem;}
+.wrapbox .time-box{
+    padding:0px;
+    margin-bottom:10px;
+    font-size: 1.5rem;}
 
-.wrapbox .time-box .timeimg{width: 100%; height: auto;}
+.wrapbox .time-box .img-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 1.25rem;
+}
+
+.wrapbox .time-box .timeimg{width: 100%; height: auto;padding:1.25rem;}
+
+.text-justify {margin: 0rem;
+    text-align: justify!important;
+    font-size: 0.9375rem;
+    padding: 0.9375rem;
+}
 
 /*** how it works **/
 
 #howItwork {background-color: var(--hblack); 
-color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 1.5rem;padding:50px 10px;}
-#howItwork div {margin:10px 0px;}
+color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:50px 10px;}
+#howItwork div {margin:10px 10px;}
+#howItwork p {font-size: 1.0rem;}
 
 /** How it works End **/
 
@@ -58,7 +79,7 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 1.5rem;pa
   /*** title ***/
 
 .wrapbox #prOducts {width: 100vw;
-    margin-top:50px;
+    margin:0px;
     margin-bottom: 10px;
     padding:70px 0px;
     background-color: var(--hfgrey);
@@ -75,10 +96,10 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 1.5rem;pa
   overflow: hidden;
   cursor: pointer;
 }
-.shop-img {
-  transition: all 1s ease-in-out;
+.shop-img {width: 100%; height: auto;padding:1.25rem;
+  transition: all 1s cubic-bezier(0.45, 0.05, 0.55, 0.2);
 }
-.img-container:hover .shop-img {opacity: 0.2;
+.img-container:hover .shop-img {opacity: 0.2;padding:1.25rem;
   transform: scale(1.2);
 }
 .shop-product-icon {
@@ -88,7 +109,6 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 1.5rem;pa
   color:var(--hmBlack);
   padding: 0.75rem;
   background: var(--hmGrey);
-  border-top-left-radius: 3rem;
   transition: all 1s ease-in-out;
   transform: translate(100%, 100%);
 }
@@ -98,28 +118,26 @@ color: var(--hmWhite);text-align: center; margin-top: 180px;font-size: 1.5rem;pa
 .shop-product-icon:hover {
   color:transparent(1);
 }
-.shop-product-value {
-  color: --mainYellow;
-}
-/*end of  shop products */
-.search-box {
-  background: var(--mainPink);
-  color: var(--mainBlack);
-}
 
- /** products **/
+/*end of  shop products */
+
 
 
 /** footer starts***/
 
-.wrapbox #footercontent {margin-top:2rem;padding: 10px;
+.wrapbox #footercontent {margin-top:2rem;padding: 0rem;;
     background-color:var(--hblack);
      color: var(--hmWhite);
      text-align: center;}
+.signupcontant p{padding: 2rem;;}
 /*** footer links ***/
 #footercontent ul {list-style: none;padding: 0rem;}
 
 #footercontent ul li a {color: var(--hmWhite); font-size: 1.5rem;}
+
+.secondFooter {margin:0;font-size: 0.5rem;width: 100vw;padding:0;background-color: var(--hmGrey);}
+.secondFooter p {margin: 0;}
+}
 /** footer link End **/
 
        /***** signup form Starts ***/
