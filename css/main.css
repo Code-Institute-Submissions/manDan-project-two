@@ -135,8 +135,8 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 
 #footercontent ul li a {color: var(--hmWhite); font-size: 1.5rem;}
 
-.secondFooter {margin:0;font-size: 0.5rem;width: 100vw;padding:0;background-color: var(--hmGrey);}
-.secondFooter p {margin: 0;}
+.secondFooter {margin:0;font-size: 0.7rem;width: 100vw;padding:0;background-color: var(--hmGrey);}
+.secondFooter p {margin: 0;
 }
 /** footer link End **/
 
