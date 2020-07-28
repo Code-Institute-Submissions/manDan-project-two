@@ -50,12 +50,6 @@ color: var(--hblack); font-family:var(--myfont)}
     margin-bottom:10px;
     font-size: 1.5rem;}
 
-.wrapbox .time-box .img-container {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    padding: 1.25rem;
-}
 
 .wrapbox .time-box .timeimg{width: 100%; height: auto;padding:1.25rem;}
 
