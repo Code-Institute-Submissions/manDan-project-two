@@ -109,7 +109,7 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 
 /** footer starts***/
 
-#footercontent {margin-top:2rem;padding: 0rem;;
+#footercontent {margin-top:2rem;padding: 1.5rem;;
     background-color:var(--hblack);
      color: var(--hmWhite);
      text-align: center;}
@@ -139,171 +139,32 @@ width: 100%;}
 
 
 // Small devices (landscape phones, 576px and up)
-@media screen and (min-width: 579px) {
+@media (min-width: 576px) { 
 
-.shop-img {
-    width: 100%;
-    height: auto;
-    padding: 4.252rem;
-    transition: all 1s ease-in-out;
-}
-
-.text-justify {margin: 0rem;
-    text-align: justify!important;
-    font-size: 1.5rem;
-    padding: 0.9375rem;
-}
-
-.wrapbox .time-box{
-    padding:0px;
-    margin-bottom:10px;
-    font-size: 1.5rem;}
-.timebox .col-sm-6 {margin:0;}
-
-.wrapbox .time-box .timeimg{width: 100%; height: auto;padding:1.25rem;}
-
-.text-justify {margin: 0rem;
-    text-align: justify!important;
-    font-size: 0.9375rem;
-    padding: 0.9375rem;
-}
-
-.firstfooter .signupcontant h2 {
-    margin: 1.5rem;
-    font-size: 1.0625rem;
-}
-
-
+#footercontent{padding:5px;}
 
 }
+
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { .text-justify {margin: 0rem;
-    text-align: justify
-    font-size: 1.5rem;
-    padding: 0.9375rem;!important;
-}
+
+@media screen and (min-width: 768px) 
+
+{ 
+   
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px)
+
+ {
+
+}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {.alert {color:var(--hblack);
-    background-color: #d19a33;
-    position: relative;
-    padding: .75rem 1.25rem;
-    margin-top: 3.5625rem;
-    margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-radius: 0rem;
-    important!
+@media (min-width: 1200px) 
+{
+
+
 }
 
-
-/** Alert End **/
-
-/*** Banner **/
-
-.wrapbox .time-box{
-    padding:0px;
-    margin-bottom:10px;
-    font-size: 1.5rem;}
-
-
-.wrapbox .time-box .timeimg{width: 100%; height: auto;padding:1.25rem;}
-
-.text-justify {margin: 0rem;
-    text-align: justify!important;
-    font-size: 0.9375rem;
-    padding: 0.9375rem;
-}
-
-/*** how it works **/
-
-#howItwork {background-color: var(--hblack); 
-color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:50px 10px;}
-#howItwork div {margin:10px 0px;}
-#howItwork p {font-size: 1.0rem;text-align: justify;word-spacing:0.2px;}
-
-/** How it works End **/
-
-/*** shop Product ***/
- 
-  /*** title ***/
-
-.wrapbox #prOducts {width: 100vw;
-    margin:0px;
-    margin-bottom: 10px;
-    padding:70px 0px;
-    background-color: var(--hfgrey);
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--hmWhite);}
-
- /*** Title ENd **/
- .shop {
-  background: var(--hmGrey);
-}
-.img-container {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-}
-.shop-img {width: 100%; height: auto;padding:1.252rem;
-  transition: all 1s ease-in-out;
-}
-.img-container:hover .shop-img {opacity: 0.2;padding:1.25rem;
-  transform: scale(1.2);
-}
-.shop-product-icon {
-  position: absolute;
-  bottom: 0rem;
-  right: 0rem;
-  color:var(--hmBlack);
-  padding: 0.75rem;
-  background: var(--hmGrey);
-  transition: all 1s ease-in-out;
-  transform: translate(100%, 100%);
-}
-.img-container:hover .shop-product-icon {
-  transform: translate(0, 0);
-}
-.shop-product-icon:hover {
-  color:transparent(1);
-}
-
-/*end of  shop products */
-
-
-
-/** footer starts***/
-
-#footercontent {margin-top:2rem;padding: 0rem;;
-    background-color:var(--hblack);
-     color: var(--hmWhite);
-     text-align: center;}
-.signupcontant p{padding: 2rem;;}
-/*** footer links ***/
-#footercontent ul {list-style: none;padding: 0rem;}
-
-#footercontent ul li a {color: var(--hmWhite); font-size: 1.5rem;}
-
-.secondFooter {margin:0;font-size: 0.7rem;width: 100vw;padding:1rem 0rem;background-color: var(--hmGrey);}
-.secondFooter p {margin: 0;
-}
-/** footer link End **/
-
-       /***** signup form Starts ***/
-
-
-#mc_embed_signup{
-clear: left;
-font: 14px Helvetica, Arial, sans-serif;
-width: 100%;}
-        /**** Signupform Ends***/
-
-
-
-
- }
