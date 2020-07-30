@@ -117,7 +117,7 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 
 #footercontent ul li a {color: var(--hmWhite); font-size: 5vw;}
 
-.secondFooter {margin:0;font-size: 1vw;width: 100%;background-color: var(--hmGrey);bottom: 0%;}
+.secondFooter {margin:0;font-size: 2vw;width: 100%;background-color: var(--hmGrey);bottom: 0%;}
 .secondFooter p {margin: 0;
 }
 /** footer link End **/
