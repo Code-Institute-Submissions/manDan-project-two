@@ -10,7 +10,11 @@
 body{margin:0;padding:0;background: var(--hmWhite);
 color: var(--hblack); font-family:var(--myfont)}
 
-.wrapbox {margin: 0%; padding:0%;width: 100vw; height: auto; } 
+.row{padding: 0%;}
+.col-sm-6{padding: 0%;}
+.col-sm-3{padding: 0%;}
+.col-sm-12{padding: 0%;}
+
 /*******nav bar starts ******/
 
 .navLink{color: var(--hblack);}
@@ -35,25 +39,16 @@ color: var(--hblack); font-family:var(--myfont)}
 
 /*** Banner **/
 
-.wrapbox .time-box{
+.container-sm .time-box{
     padding:0px;
     margin-bottom:10px;
-    font-size: 1.5rem;}
-
-
-.wrapbox .time-box .timeimg{width: 100%; height: auto;padding:1.25rem;}
-
-.text-justify {margin: 0rem;
-    text-align: justify!important;
-    font-size: 0.9375rem;
-    padding: 0.9375rem;
-}
-
+    font-size: 1.5vw}
+.timeboxDetails{font-size: 2.5vw;padding: 20px;margin-top: 10px;}
 /*** how it works **/
 
 #howItwork {background-color: var(--hblack); 
 color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:50px 10px;}
-#howItwork div {margin:10px 0px;}
+#howItwork div {margin:10px 0px;padding: 1rem;} 
 #howItwork p {font-size: 1.0rem;text-align: justify;word-spacing:0.2px;}
 
 /** How it works End **/
@@ -62,7 +57,7 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
  
   /*** title ***/
 
-.wrapbox #prOducts {width: 100vw;
+#prOducts {width: 100%;
     margin:0px;
     margin-bottom: 10px;
     padding:70px 0px;
@@ -109,17 +104,20 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 
 /** footer starts***/
 
-#footercontent {margin-top:2rem;padding: 1.5rem;;
-    background-color:var(--hblack);
-     color: var(--hmWhite);
-     text-align: center;}
-.signupcontant p{padding: 2rem;;}
+#footercontent {margin-top: 2rem;
+    padding-top: 2.5rem;
+    background-color: var(--hblack);
+    color: var(--hmWhite);
+    text-align: center;}
+
+    #footercontent .signupcontant h2{font-size: 4vw;}
+.signupcontant p{padding: 1rem;font-size:3vw;}
 /*** footer links ***/
 #footercontent ul {list-style: none;padding: 0rem;}
 
-#footercontent ul li a {color: var(--hmWhite); font-size: 1.5rem;}
+#footercontent ul li a {color: var(--hmWhite); font-size: 5vw;}
 
-.secondFooter {margin:0;font-size: 0.7rem;width: 100vw;padding:1rem 0rem;background-color: var(--hmGrey);}
+.secondFooter {margin:0;font-size: 1vw;width: 100%;background-color: var(--hmGrey);bottom: 0%;}
 .secondFooter p {margin: 0;
 }
 /** footer link End **/
@@ -127,44 +125,8 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
        /***** signup form Starts ***/
 
 
-#mc_embed_signup{
-clear: left;
+#sigNup{padding:40px;
 font: 14px Helvetica, Arial, sans-serif;
 width: 100%;}
+
         /**** Signupform Ends***/
-
-
-
-
-
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
-#footercontent{padding:5px;}
-
-}
-
-
-// Medium devices (tablets, 768px and up)
-
-@media screen and (min-width: 768px) 
-
-{ 
-   
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px)
-
- {
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) 
-{
-
-
-}
-
