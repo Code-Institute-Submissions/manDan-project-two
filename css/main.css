@@ -115,7 +115,7 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 /*** footer links ***/
 #footercontent ul {list-style: none;padding: 0rem;}
 
-#footercontent ul li a {color: var(--hmWhite); font-size: 5vw;}
+#footercontent ul li a {color: var(--hmWhite); font-size: 3vw;}
 
 .secondFooter {margin:0;font-size: 2vw;width: 100%;background-color: var(--hmGrey);bottom: 0%;}
 .secondFooter p {margin: 0;
@@ -123,10 +123,21 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
 /** footer link End **/
 
        /***** signup form Starts ***/
+       
+						#mc_embed_signup {
+							background-color:var(--hBlack);
+							clear: left;
+							font: 14px Helvetica, Arial, sans-serif;
+						}
 
-
-#sigNup{padding:40px;
-font: 14px Helvetica, Arial, sans-serif;
-width: 100%;}
 
         /**** Signupform Ends***/
+
+
+
+
+        /* cart  */
+.modal-backdrop {
+z-index: 0;
+}
+/* end of cart */
