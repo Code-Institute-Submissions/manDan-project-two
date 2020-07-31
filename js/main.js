@@ -1,3 +1,26 @@
+
+// subscribe  form
+
+let cta=document.getElementById("cta")
+let email=document.getElementById("email").nodeValue;
+let error=document.getElementById("error");
+let success=document.getElementById("Success");
+let signup=document.getElementById("signup")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log("working");
 
 // to show cart
