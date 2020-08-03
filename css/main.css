@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 
 
 :root{--hmBlack: #262626;
@@ -31,7 +38,8 @@ color: var(--hblack); font-family:var(--myfont)}
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 0rem;
-    important!
+    !important
+  
 }
 
 
@@ -76,10 +84,14 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
   cursor: pointer;
 }
 .shop-img {width: 100%; height: auto;padding:1.252rem;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 .img-container:hover .shop-img {opacity: 0.2;padding:1.25rem;
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .shop-product-icon {
   position: absolute;
@@ -88,11 +100,17 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
   color:var(--hmBlack);
   padding: 0.75rem;
   background: var(--hmGrey);
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  transform: translate(100%, 100%);
+  -webkit-transform: translate(100%, 100%);
+      -ms-transform: translate(100%, 100%);
+          transform: translate(100%, 100%);
 }
 .img-container:hover .shop-product-icon {
-  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
 }
 .shop-product-icon:hover {
   color:transparent(1);
@@ -109,9 +127,6 @@ color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:
     background-color: var(--hblack);
     color: var(--hmWhite);
     text-align: center;}
-
-    #footercontent .signupcontant h2{font-size: 4vw;}
-.signupcontant p{padding: 1rem;font-size:3vw;}
 /*** footer links ***/
 #footercontent ul {list-style: none;padding: 0rem;}
 
