@@ -1,16 +1,18 @@
 
 // subscribe  form
 
-alert("You are about to see underdevlopment shoping website");
 
-$(document).ready(function () {
-    $("#cvUplode").click(function () {
-        $("Uplode").show();
-    });
+
+
+/// uplode Cv thrue Emailjs
 
 
 $(document).ready(function () {
-    $("#submit").click(function () {
-        $("Uplode").hide();
+
+    alert("You are about to see underdevlopment shoping website");
+
+    $("#cvsubmit").click(function () {
+        alert("Thank You For Your applying but we are facing problem with uploding meanwhile you can send your CV on  info@Mandan.io ");
     });
+});
 
