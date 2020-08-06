@@ -56,8 +56,10 @@ color: var(--hblack); font-family:var(--myfont)}
 
 #howItwork {background-color: var(--hblack); 
 color: var(--hmWhite);text-align: center; margin:0rem;font-size: 1.5rem;padding:50px 10px;}
-#howItwork div {margin:10px 0px;padding: 1rem;} 
+#howItwork div {margin:10px 0px;padding: 1rem;display:inline-block;} 
 #howItwork p {font-size: 1.0rem;text-align: justify;word-spacing:0.2px;}
+
+#howItwork :hover{visibility:visible;}
 
 /** How it works End **/
 
