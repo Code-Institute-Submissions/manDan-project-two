@@ -7,40 +7,41 @@
 
 ## User Stories
 
-website should be able to convay it's usability in a way that it don't leave user confused 
+* website should be able to convay it's usability in a way that it don't leave user confused 
 
-User want to know about company
-User want to know about offerings
-User want to signup for Newsletter
-User want to know wether signup done or not.
-User want to order product.
+- User want to know about company
+- User want to know about offerings
+- User want to signup for Newsletter
+- User want to know wether signup done or not.
+- User want to order product.
 
 ## UX
-Website shall contain 1 page which have 3 section Product, Signup, shoping cart
+- Website shall contain 1 page which have 3 section Product, Signup, shoping cart
 
 ### Header: Fix Navigation Bar shows different link for navigate in website.
-Logo: Logo or Home button anywhere on page click on logo and you are on page bigningbinging 
+- Logo: Logo or Home button anywhere on page click on logo and you are on page bigningbinging 
 hoping cart: show shoping cart and product in basket
-Footer: Social media Links And version information.
+
+- Footer: Social media Links And version information.
 Wireframe
 
 # Current Features
 
-when user load website browser alert it that it is about to see underdevlopment website.
-user can subscribr for the newsletter and once it subscribe he/she will recive auto mail which say thanks for subscribing as well on website also it say thank you once it's subscribed.
-user can send a recomandation for furthere devlopment of the website and products.
+- when user load website browser alert it that it is about to see underdevlopment website.
+- user can subscribr for the newsletter and once it subscribe he/she will recive auto mail which say thanks for subscribing as well on website also it say thank you once it's subscribed.
+- user can send a recomandation for furthere devlopment of the website and products.
 
 
 ### Planning to implement following Features
 
-Add to cart function which will complete the cart function complete.
-payment & Checkout page using Stripe.
+- Add to cart function which will complete the cart function complete.
+- payment & Checkout page using Stripe.
 
 # Technologies Used:
-Project Made Using following tech.
+- Project Made Using following tech.
 
 1. Bootstrap v 4.3.1
-Bootstrap is used for following component.
+- Bootstrap is used for following component.
 
 * Grid Layout
 * Navbar
@@ -48,29 +49,35 @@ Bootstrap is used for following component.
 * Form
 
 2. Font Awesome v 5.11.2
-  https://fontawesome.com/icons font awesome used for Social Media & basket Icons
+ 
+ - https://fontawesome.com/icons font awesome used for Social Media & basket Icons
 
-  * Facebook
-* You tube
+* Facebook
+* You tub
 * Twitter
 * cart Icon
 
 
 3. mailchimp
-https://mailchimp.com/
+
+- https://mailchimp.com/
 
 
 4. Google Font
-https://fonts.google.com/specimen/McLaren
-font-family: 'Krona One', sans-serif
+
+- https://fonts.google.com/specimen/McLaren
+  font-family: 'Krona One', sans-serif
 
 5. Project Developed in GIT POD Environment.
 
 6. Logo Maker
-https://logomakr.com/
+ 
+
+- https://logomakr.com/
 
 7. Favicon Generator
-https://www.favicon-generator.org/
+
+- https://www.favicon-generator.org/
 
 
 # Testing
