@@ -1,7 +1,7 @@
 
 // subscribe  form
 
-
+document.getElementsByClassName(".")
 
 
 /// uplode Cv thrue Emailjs
