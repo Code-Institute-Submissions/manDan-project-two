@@ -5,6 +5,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
 	<!----jQuery-->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -67,10 +68,20 @@
         </button>
 											</div>
 											<div class="modal-body">
-												<table class="show-cart table">
+												<div class="container content-section">
 
-												</table>
-												<div>Total price: <span class="total-cart"></span></div>
+													<div class="cart-row">
+														<span class="cart-item cart-header cart-col">ITEM</span>
+														<span class="cart-price cart-header cart-column">PRICE</span>
+														<span class="cart-quantity cart-header cart-column">QUANTITY</span>
+													</div>
+													<div class="cart-items">
+													</div>
+													<div class="cart-total">
+														<strong class="cart-total-title">Total</strong>
+														<span class="cart-total-price">00.0 DKK</span>
+													</div>
+												</div>
 											</div>
 											<div class="modal-footer">
 												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -307,13 +318,13 @@
 						<h2><i class="far fa-file"></i></h2>
 						<h1>Career</h1>
 						<p>Want to work in world class work enviromn with extraordinary people Uplod your CV </p>
-							<form>
-								<div class="form-group">
-									<label for="cv">Uplode Your CV Please </label>
-									<input type="file" class="form-control-file" id="cv">
-									<button id="cvsubmit" type="submit" class="btn btn-primary" > Submit </button>
-								</div>
-							</form>
+						<form>
+							<div class="form-group">
+								<label for="cv">Uplode Your CV Please </label>
+								<input type="file" class="form-control-file" id="cv">
+								<button id="cvsubmit" type="submit" class="btn btn-primary" > Submit </button>
+							</div>
+						</form>
 					</div>
 				</div>
 
