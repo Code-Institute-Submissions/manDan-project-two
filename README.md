@@ -102,36 +102,23 @@ Wireframe
 
 * Function Testing
 
-* alert
-
-- when website load it should show alert on the page when user click "ok" then it load furthere. every time page load this alert box will show up.
-
-* Fix Navbar 
-- user will scroll down or up nawbar should be on fix postition.
-
-* Product link
-- by clicking on product link user should be reach product section.
-
-* Cart
-- by clicking on cart cart box will appears which shows cart information.
-
-* add to cart button
-- when user hover on product image add to cart button will appears.( user should get alert when button is pressed)
-
-* Newsletter
-- when user subscribe for the newsletter it will shous the success message and wellcome mail in inbox from mailchimp.
+  1. alert: when website load it should show alert on the page when user click "ok" then it load furthere. every time page load this alert box will show up.
+  2. Fix Navbar: user will scroll down or up nawbar should be on fix postition.
+  3. Product link: by clicking on product link user should be reach product section.
+  4. Cart: by clicking on cart cart box will appears which shows cart information.
+  5. Add to cart button: when user hover on product image add to cart button will appears.( user should get alert when button is pressed)
+  6. Newsletter: when user subscribe for the newsletter it will shous the success message and wellcome mail in inbox from mailchimp.
 
 
 
-all test produce good result and website work perfactly fine in all space.
-
-Lenovo ideapad 110 (laptop)
+- all test produce good result and website work perfactly fine in all space.
 
 
 # Deployment
-In terminal window use (git add.) command to add files to the directory
-Use ( git commit -m “ text” ) and commit the changes and updates
-Then to deployment (git Push) Command to push the files to the GitHub pages.
+1. In terminal window use (git add.) command to add files to the directory
+2. Use ( git commit -m “ text” ) and commit the changes and updates
+3. Then to deployment (git Push) Command to push the files to the GitHub pages.
+
 All version are in master branch.
 
 ## Steps To GitHub Pages Deployment
@@ -167,5 +154,5 @@ All version are in master branch.
 1. Rahul Patil
 2. https://www.w3schools.com/
 3. Slack Community
-4. coding addict youtube channel 
-5. Telmo sampaio youtube channel
+4. coding addict youtube channel (shoping cart function) 
+5. Telmo sampaio youtube channel 
